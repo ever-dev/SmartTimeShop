@@ -2,15 +2,18 @@
 <html ng-app="smartTimeApp">
 <head>
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="public/css/style.css" type="text/css"/>
-
-    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-
     <!-- inject:css -->
     <!-- endinject -->
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 </head>
 <body>
+    <ul class="menu">
+        <li><a href="#/watches">watches</a></li>
+    </ul>
+
+    <ng-view></ng-view>
+
     <div>
         <p>Some Text</p>
     </div>
@@ -22,8 +25,6 @@
 
     <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
     <script type="text/javascript" src="bower_components/angular-route/angular-route.min.js"></script>
-    <script type="text/javascript" src="public/js/app.js"></script>
-
     <!-- inject:js -->
     <!-- endinject -->
 </body>

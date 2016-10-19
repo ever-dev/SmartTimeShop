@@ -2,7 +2,7 @@
 
 var smartTimeApp =  angular.module('smartTimeApp', [
     'ngRoute',
-   // 'smartTimeApp.watches'
+    'smartTimeApp.watches'
 ]);
 
 smartTimeApp.controller('SmartTimeAppCtrl', [ '$scope', function($scope) {

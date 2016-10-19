@@ -39,7 +39,7 @@ gulp.task('html', function() {
 });
 
 gulp.task('injectModules', function() {
-    var source = gulp.src('app/public/**/*.{css,js}', {read: false});
+    var source = gulp.src(['app/public/**/*.{css,js}'], {read: false});
     return gulp.src('app/index-template.html')
         .pipe(rename(function(file) {
             file.basename = 'index';

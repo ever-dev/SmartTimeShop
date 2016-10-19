@@ -4,11 +4,11 @@ angular.module('smartTimeApp.watches', ['ngRoute'])
 
     .config(['$routeProvider', function($routeProvider) {
         $routeProvider.when('/watches', {
-            templateUrl: 'watches/watches.html',
+            templateUrl: '/routes/watches/watches.html',
             controller: 'WatchesCtrl'
         });
     }])
 
-    .controller('WatchesCtrl', [function() {
-
+    .controller('WatchesCtrl', ['$scope', function($scope) {
+        $scope.name = 'asd';
     }]);
