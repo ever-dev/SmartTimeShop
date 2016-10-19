@@ -1,11 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="smartTimeApp">
 <head>
+    <script type="text/javascript" src="node_modules/angular/angular.min.js"></script>
+    <script type="text/javascript" src="node_modules/angular-route/angular-route.min.js"></script>
+    <script type="text/javascript" src="public/js/app.js"></script>
     <link rel="stylesheet" href="public/css/main.css" type="text/css"/>
 </head>
 <body>
     <div>
         <p>Some Text</p>
+    </div>
+
+    <div>
+        <input ng-model="name"/>
+        <span>{{name}}</span>
     </div>
 </body>
 </html>
