@@ -1,0 +1,17 @@
+{
+  "name": "smart-time-shop",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Roman Poskrebyshev"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

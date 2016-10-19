@@ -1,1 +1,0 @@
-var smartTimeApp =  angular.module('smartTimeApp', []);
