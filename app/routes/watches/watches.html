@@ -1,1 +1,33 @@
-<h1>{{name}}</h1>
+<div class="watches-list">
+    <div ng-repeat="watch in watches">
+        <div class="row watches-item">
+            <div class="col-xs-2">
+                <img ng-src="{{watch.pictureUrls[0]}}"/>
+            </div>
+            <div class="col-xs-10 col-sm-8">
+                <h4>
+                    <a href="#/watch/{{watch.id}}">{{watch.name}}</a>
+                </h4>
+                <div class="watches-item-model">
+                    <strong>Model: </strong>{{watch.model}}
+                </div>
+                <a href="#">
+                    <div class="btn btn-default btn-sm">See more colors</div></a>
+                <div class="watches-item-desc">
+                    {{watch.desc}}
+                </div>
+            </div>
+            <div class="col-xs-10 col-xs-offset-2 col-sm-2 col-sm-offset-0">
+                <div class="watches-item-price">${{watch.price}}</div>
+                <a href="#">
+                    <div class="btn btn-primary btn-sm">
+                        <strong>
+                            <span class="glyphicon glyphicon-shopping-cart"></span> Add to cart
+                        </strong>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <hr/>
+    </div>
+</div>

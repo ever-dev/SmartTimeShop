@@ -1,0 +1,29 @@
+<div class="row watch">
+    <div class="col-sm-8 col-md-9">
+        <h1>{{watch.name}}</h1>
+        <div class="watch-model">
+            <strong>Model: </strong> {{watch.model}}
+        </div>
+        <div class="text-center">
+            <img id="watchcover" ng-src="{{mainImgUrl}}" />
+            <div id="img-selector">
+                <div class="img-item" ng-repeat="picture in watch.pictureUrls">
+                    <img ng-src="{{picture}}" ng-click="setImage($event, picture)"/>
+                </div>
+            </div>
+        </div>
+        <div class="watch-desc">
+            {{watch.desc}}
+        </div>
+    </div>
+    <div class="col-sm-4 col-md-3">
+        <div class="btn btn-primary btn-block btn-lg">
+            <strong>
+                <span class="glyphicon glyphicon-shopping-cart"></span> Add to cart
+            </strong>
+        </div>
+        <div class="watch-price">
+            ${{watch.price}}
+        </div>
+    </div>
+</div>

@@ -4,31 +4,21 @@
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"/>
     <!-- inject:css -->
     <link rel="stylesheet" href="/public/css/style.css">
+    <link rel="stylesheet" href="/public/css/watch/watch.css">
     <link rel="stylesheet" href="/public/css/watches/watches.css">
     <!-- endinject -->
+    <script type="text/javascript" src="bower_components/underscore/underscore-min.js"></script>
     <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <ul class="menu">
-        <li><a href="#/watches">watches</a></li>
-    </ul>
-
-    <ng-view></ng-view>
-
-    <div>
-        <p>Some Text</p>
-    </div>
-
-    <div ng-controller="SmartTimeAppCtrl">
-        <input class="form-control" ng-model="name"/>
-        <span>{{name}}</span>
-    </div>
+    <div class="container" ng-view></div>
 
     <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
     <script type="text/javascript" src="bower_components/angular-route/angular-route.min.js"></script>
     <!-- inject:js -->
     <script src="/public/js/app.js"></script>
+    <script src="/public/js/watch/watch.js"></script>
     <script src="/public/js/watches/watches.js"></script>
     <!-- endinject -->
 </body>

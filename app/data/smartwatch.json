@@ -1,0 +1,158 @@
+[
+	{
+		"id": 1,
+		"name": "Apple - Apple Watch™ Sport 38mm Silver Aluminum Case - White Sports Band",
+		"producer": "Apple",
+		"model": "MJ3T2LL/A",
+		"rating": "4.7",
+		"hasScreen": "true",
+		"screenSizesMm": [ 42 ],
+		"colors": [ 
+			{
+				"hex": "#c3c4c4",
+				"name": "Space Gray Sports Band"
+			}
+		],
+		"price": 299.00,
+		"os": "Apple iOS",
+		"pictureUrls": [
+			"http://pisces.bbystatic.com/image2/BestBuy_US/images/products/4274/4274802_rd.jpg;maxHeight=550;maxWidth=642",
+			"http://pisces.bbystatic.com/image2/BestBuy_US/images/products/4274/4274802_bd.jpg;maxHeight=550;maxWidth=642",
+			"http://pisces.bbystatic.com/image2/BestBuy_US/images/products/4274/4274802cv1d.jpg;maxHeight=550;maxWidth=642"
+		],
+		"desc": "Apple Watch (first-generation) is an incredibly customizable timepiece, has entirely new ways to stay in touch, and is a comprehensive health and fitness companion."
+	},
+	{
+		"id": 2,
+		"name": "Apple - Apple Watch Sport 42mm Silver Aluminum Case - White Sports Band",
+		"producer": "Apple",
+		"model": "MJ3N2LL/A",
+		"rating": "4.7",
+		"hasScreen": "true",
+		"screenSizesMm": [ 38, 42 ],
+		"colors": [
+			{
+				"hex": "#fff",
+				"name": "White Sports Band"
+			},
+			{
+				"hex": "#1646a8",
+				"name": "Scuba Blue Woven Nylon Band"
+			}
+		],
+		"price": 349.00,
+		"os": "Apple iOS",
+		"pictureUrls": [ 
+			"http://pisces.bbystatic.com/image2/BestBuy_US/images/products/4274/4274601_rd.jpg;maxHeight=550;maxWidth=642",
+			"http://pisces.bbystatic.com/image2/BestBuy_US/images/products/4274/4274601_bd.jpg;maxHeight=550;maxWidth=642",
+			"http://pisces.bbystatic.com/image2/BestBuy_US/images/products/4274/4274601cv1d.jpg;maxHeight=550;maxWidth=642"
+		],
+		"desc": "Apple Watch is an incredibly customizable timepiece, has entirely new ways to stay in touch, and is a comprehensive health and fitness companion."
+	},
+	{
+		"id": 3,
+		"name": "Apple - Apple - Apple Watch (first-generation) 42mm Space Black Stainless Steel Case - Black Sport Band - Black Sport Band",
+		"producer": "Apple",
+		"model": "MLC82LL/A",
+		"rating": "4.7",
+		"hasScreen": "true",
+		"screenSizesMm": [ 42 ],
+		"colors": [ 
+			{
+				"hex": "#c3c4c4",
+				"name": "Space Gray Sports Band"
+			}
+		],
+		"price": 599.00,
+		"os": "Apple iOS",
+		"pictureUrls": [ 
+			"http://pisces.bbystatic.com/image2/BestBuy_US/images/products/4469/4469200_rd.jpg;maxHeight=550;maxWidth=642",
+			"http://pisces.bbystatic.com/image2/BestBuy_US/images/products/4469/4469200_bd.jpg;maxHeight=550;maxWidth=642",
+			"http://pisces.bbystatic.com/image2/BestBuy_US/images/products/4469/4469200cv11d.jpg;maxHeight=550;maxWidth=642"
+		],
+		"desc": "Apple Watch (first-generation) is an incredibly customizable timepiece, has entirely new ways to stay in touch, and is a comprehensive health and fitness companion."
+	},
+	{
+		"id": 4,
+		"name": "Samsung - Gear S2 Classic Smartwatch 40mm Stainless Steel - Rose Gold",
+		"producer": "Samsung",
+		"model": "SM-R7320ZDAXAR",
+		"rating": "4.5",
+		"hasScreen": "false",
+		"colors": [
+			{
+				"hex": "#ECD0C4",
+				"name": "Gold"
+			},
+			{
+				"hex": "#C9CACE",
+				"name": "Grey"
+			}
+		],
+		"price": 349.99,
+		"pictureUrls": [ "http://pisces.bbystatic.com/image2/BestBuy_US/images/products/4917/4917304_sd.jpg;maxHeight=550;maxWidth=642" ],
+		"desc": "This Samsung Gear smart watch features a rose gold color for a fashionable statement. The watch integrates with Samsung smartphones to display notifications and messages, track health and make mobile payments using Samsung Pay. This Samsung Gear smart watch has 4GB of internal memory, letting you store up to 300 songs so you can listen to music on the go."
+	},
+	{
+		"id": 5,
+		"name": "Pebble - Time Steel Smartwatch 38mm Leather - Black Leather",
+		"producer": "Pebble",
+		"model": "PBSTLTM-BLK",
+		"rating": "4.6",
+		"hasScreen": "true",
+		"screenSizesMm": [ 38 ],
+		"colors": [ 
+			{
+				"hex": "#66615D",
+				"name": "Grey"
+			}
+		],
+		"price": 179.99,
+		"pictureUrls": [ 
+			"http://pisces.bbystatic.com/image2/BestBuy_US/images/products/8192/8192054_sa.jpg;maxHeight=550;maxWidth=642",
+			"http://pisces.bbystatic.com/image2/BestBuy_US/images/products/8192/8192054_ra.jpg;maxHeight=550;maxWidth=642",
+			"http://pisces.bbystatic.com/image2/BestBuy_US/images/products/8192/8192054_ba.jpg;maxHeight=550;maxWidth=642",
+			"http://pisces.bbystatic.com/image2/BestBuy_US/images/products/8192/8192054cv12a.jpg;maxHeight=550;maxWidth=642"
+		],
+		"desc": "Pebble Time Steel Smartwatch 38mm Leather: Everything you need to manage another busy day is right at your wrist with a timeline interface that keeps you apprised of appointments and events. Includes Pebble Health to seamlessly track activity and sleep patterns. Send messages by speaking for hands-free communication."
+	},
+	{
+		"id": 6,
+		"name": "Pebble - Time Steel Smartwatch 38mm Leather - Silver",
+		"producer": "",
+		"model": "PBSTLTM-SLV",
+		"rating": "4.6",
+		"hasScreen": "true",
+		"screenSizesMm": [ 38 ],
+		"colors": [ 
+			{
+				"hex": "#A39D8D",
+				"name": "Grey"
+			}
+		],
+		"price": 199.99,
+		"pictureUrls": [ "" ],
+		"desc": "Pebble Time Steel Smartwatch 38mm Leather: Everything you need to manage another busy day is right at your wrist with a timeline interface that keeps you apprised of appointments and events. Includes Pebble Health to seamlessly track activity and sleep patterns. Send messages by speaking for hands-free communication."
+	},
+	{
+		"id": 7,
+		"name": "Asus - ZenWatch 2 WI501Q Smartwatch Gunmetal",
+		"producer": "Asus",
+		"model": "WI501Q-2J-GB2",
+		"rating": "4.5",
+		"hasScreen": "false",
+		"colors": [ 
+			{
+				"hex": "#3D3D3D",
+				"name": "Black"
+			}
+		],
+		"price": 149.99,
+		"pictureUrls": [ 
+			"http://pisces.bbystatic.com/image2/BestBuy_US/images/products/5251/5251901_rd.jpg;maxHeight=550;maxWidth=642",
+			"http://pisces.bbystatic.com/image2/BestBuy_US/images/products/5251/5251901ld.jpg;maxHeight=550;maxWidth=642",
+			"http://pisces.bbystatic.com/image2/BestBuy_US/images/products/5251/5251901cv12d.jpg;maxHeight=550;maxWidth=642"
+		],
+		"desc": "Power through the daily grind with this ASUS ZenWatch 2 smart watch. This 1.63-inch AMOLED touch screen watch is IP67-waterproof, so it's safe to wear in the shower while waiting for a very important call. This ASUS ZenWatch 2 smart watch also has a Wellness Suite that lets you plan workout routines, set training goals and track your progress."
+	}
+]

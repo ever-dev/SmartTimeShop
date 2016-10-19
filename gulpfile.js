@@ -7,7 +7,7 @@ var rename = require('gulp-rename');
 var browserSync = require('browser-sync').create();
 
 gulp.task('sass', function() {
-    return gulp.src('app/routes/**/*.scss')
+    return gulp.src(['app/routes/**/*.scss', '!app/routes/**/_*.scss'])
         .pipe(sass().on('error', sass.logError))
         .pipe(gulp.dest('app/public/css'))
         .pipe(browserSync.reload({
@@ -16,7 +16,7 @@ gulp.task('sass', function() {
 });
 
 gulp.task('css', function() {
-    return gulp.src('app/routes/**/*.css')
+    return gulp.src(['app/routes/**/*.css', '!app/routes/**/_*.css'])
         .pipe(gulp.dest('app/public/css'))
         .pipe(browserSync.reload({
             stream: true
@@ -24,7 +24,7 @@ gulp.task('css', function() {
 });
 
 gulp.task('js', function() {
-    return gulp.src('app/routes/**/*.js')
+    return gulp.src(['app/routes/**/*.js', '!app/routes/**/_*.js'])
         .pipe(gulp.dest('app/public/js'))
         .pipe(browserSync.reload({
             stream: true
@@ -65,9 +65,9 @@ gulp.task('browserSync', function() {
 });
 
 gulp.task('watch', ['browserSync', 'injectModules', 'sass', 'js', 'css', 'html'], function() {
-    gulp.watch('app/routes/**/*.scss', ['sass']);
-    gulp.watch('app/routes/**/*.css', ['css']);
-    gulp.watch('app/routes/**/*.js', ['js']);
+    gulp.watch(['app/routes/**/*.scss', '!app/routes/**/_*.scss'], ['sass']);
+    gulp.watch(['app/routes/**/*.css', '!app/routes/**/_*.css'], ['css']);
+    gulp.watch(['app/routes/**/*.js', '!app/routes/**/_*.js'], ['js']);
     gulp.watch('app/index-template.html', ['injectModules']);
     gulp.watch(['app/routes/**/**.html', 'app/index.html'], ['html']);
 });

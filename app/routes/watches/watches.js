@@ -9,6 +9,8 @@ angular.module('smartTimeApp.watches', ['ngRoute'])
         });
     }])
 
-    .controller('WatchesCtrl', ['$scope', function($scope) {
-        $scope.name = 'asd';
+    .controller('WatchesCtrl', ['$scope', '$http', function($scope, $http) {
+        $http.get('data/smartwatch.json').success(function(data) {
+            $scope.watches = data;
+        });
     }]);

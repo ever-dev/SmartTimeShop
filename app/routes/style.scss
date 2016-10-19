@@ -1,15 +1,29 @@
-@mixin color($color) {
-  color: $color;
+body {
+  font-size: 13px;
 }
 
-@function doubleWidth($width) {
-  @return 5 * $width;
+a {
+  color: #085eb9;
+  text-decoration: none;
+
+  &:hover, &:focus {
+    color: #053970;
+    text-decoration: underline;
+  }
 }
 
-div {
-  p {
-    @include color(red);
-    background-color: gray;
-    width: doubleWidth(50px)
+img {
+  max-width: 100%;
+}
+
+.btn {
+  padding-left: 25px;
+  padding-right: 25px;
+
+  &-default {
+    $dtnDefaultColor: #085eb9;
+    border: 1px solid $dtnDefaultColor;
+    background: #fff;
+    color: $dtnDefaultColor;
   }
 }

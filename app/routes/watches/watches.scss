@@ -1,0 +1,32 @@
+@import "../common";
+
+.watches-list {
+  .watches-item {
+    h4 {
+      font-size: 15px;
+      font-weight: bold;
+      line-height: 1.3;
+      margin: 0;
+    }
+
+    &-model {
+      margin-top: 2px;
+      margin-bottom: 6px;
+      font-size: 11px;
+    }
+
+    &-desc {
+      margin-top: 5px;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+    }
+
+    &-price {
+      @include price-primary();
+    }
+
+    .btn-primary {
+      @include gold-btn-primary();
+    }
+  }
+}
