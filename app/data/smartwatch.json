@@ -4,7 +4,7 @@
 		"name": "Apple - Apple Watch™ Sport 38mm Silver Aluminum Case - White Sports Band",
 		"producer": "Apple",
 		"model": "MJ3T2LL/A",
-		"rating": "4.7",
+		"rating": 4.7,
 		"hasScreen": "true",
 		"screenSizesMm": [ 42 ],
 		"colors": [ 
@@ -27,7 +27,7 @@
 		"name": "Apple - Apple Watch Sport 42mm Silver Aluminum Case - White Sports Band",
 		"producer": "Apple",
 		"model": "MJ3N2LL/A",
-		"rating": "4.7",
+		"rating": 4.7,
 		"hasScreen": "true",
 		"screenSizesMm": [ 38, 42 ],
 		"colors": [
@@ -54,7 +54,7 @@
 		"name": "Apple - Apple - Apple Watch (first-generation) 42mm Space Black Stainless Steel Case - Black Sport Band - Black Sport Band",
 		"producer": "Apple",
 		"model": "MLC82LL/A",
-		"rating": "4.7",
+		"rating": 4.7,
 		"hasScreen": "true",
 		"screenSizesMm": [ 42 ],
 		"colors": [ 
@@ -77,7 +77,7 @@
 		"name": "Samsung - Gear S2 Classic Smartwatch 40mm Stainless Steel - Rose Gold",
 		"producer": "Samsung",
 		"model": "SM-R7320ZDAXAR",
-		"rating": "4.5",
+		"rating": 4.5,
 		"hasScreen": "false",
 		"colors": [
 			{
@@ -98,7 +98,7 @@
 		"name": "Pebble - Time Steel Smartwatch 38mm Leather - Black Leather",
 		"producer": "Pebble",
 		"model": "PBSTLTM-BLK",
-		"rating": "4.6",
+		"rating": 4.6,
 		"hasScreen": "true",
 		"screenSizesMm": [ 38 ],
 		"colors": [ 
@@ -121,7 +121,7 @@
 		"name": "Pebble - Time Steel Smartwatch 38mm Leather - Silver",
 		"producer": "",
 		"model": "PBSTLTM-SLV",
-		"rating": "4.6",
+		"rating": 4.6,
 		"hasScreen": "true",
 		"screenSizesMm": [ 38 ],
 		"colors": [ 
@@ -139,7 +139,7 @@
 		"name": "Asus - ZenWatch 2 WI501Q Smartwatch Gunmetal",
 		"producer": "Asus",
 		"model": "WI501Q-2J-GB2",
-		"rating": "4.5",
+		"rating": 4.5,
 		"hasScreen": "false",
 		"colors": [ 
 			{

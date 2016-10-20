@@ -27,3 +27,42 @@ img {
     color: $dtnDefaultColor;
   }
 }
+
+.block-xs {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.block-sm {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.block-md {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.rating {
+  width: 85px;
+  height: 17px;
+  background: url(http://css.bbystatic.com/sc-stars/images/small-yellow-bfa7e2310afa60bf446f1413b655eb60.png) repeat-x;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0;
+  border-radius: 0;
+  line-height: 1;
+
+  &-yellow {
+    background-position: 0 -16px;
+    margin: 0;
+  }
+
+  &-score {
+    color: #085eb9;
+  }
+}
+
+i.fa {
+  font-size: 20px;
+}

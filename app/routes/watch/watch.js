@@ -16,12 +16,19 @@ angular.module('smartTimeApp.watch', ['ngRoute'])
                 return el.id == id;
             });
             $scope.mainImgUrl = $scope.watch.pictureUrls[0];
+            $scope.selectedColor = $scope.watch.colors[0];
+            $scope.selectedScreenSize = $scope.watch.hasScreen ? $scope.watch.screenSizesMm[0] : undefined;
         });
 
-        $scope.setImage = function ($event, imageUrl) {
+        $scope.setImage = function (imageUrl) {
             $scope.mainImgUrl = imageUrl;
-            var targetParent = $($event.target).parent();
-            targetParent.siblings().removeClass('select');
-            targetParent.addClass('select');
         };
+
+        $scope.setColor = function(color) {
+            $scope.selectedColor = color;
+        }
+
+        $scope.setScreenSize = function(screenSize) {
+            $scope.selectedScreenSize = screenSize;
+        }
     }]);

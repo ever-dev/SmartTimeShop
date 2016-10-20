@@ -1,14 +1,13 @@
 <div class="row watch">
     <div class="col-sm-8 col-md-9">
         <h1>{{watch.name}}</h1>
-        <div class="watch-model">
-            <strong>Model: </strong> {{watch.model}}
-        </div>
         <div class="text-center">
-            <img id="watchcover" ng-src="{{mainImgUrl}}" />
+            <img id="watchcover" ng-src="{{mainImgUrl}}"/>
             <div id="img-selector">
-                <div class="img-item" ng-repeat="picture in watch.pictureUrls">
-                    <img ng-src="{{picture}}" ng-click="setImage($event, picture)"/>
+                <div class="img-item"
+                     ng-repeat="picture in watch.pictureUrls"
+                     ng-class="{selected: picture == mainImgUrl}">
+                    <img ng-src="{{picture}}" ng-click="setImage(picture)"/>
                 </div>
             </div>
         </div>
@@ -22,8 +21,48 @@
                 <span class="glyphicon glyphicon-shopping-cart"></span> Add to cart
             </strong>
         </div>
-        <div class="watch-price">
+        <div class="watch-price text-center">
             ${{watch.price}}
         </div>
+        <hr/>
+        <div class="block-sm">
+            <strong>Producer: </strong>
+            <span class="pull-right">{{watch.producer}}</span>
+        </span>
+        <div class="watch-model block-sm">
+            <strong>Model: </strong>
+            <span class="pull-right">{{watch.model}}</span>
+        </div>
+        <div class="rating block-sm">
+            <div class="rating rating-yellow" style="width: {{watch.rating / 5.0 * 100}}%"></div>
+        </div>
+        <strong class="rating-score">{{watch.rating}}</strong>
+        <hr/>
+        <div ng-show="selectedColor" class="block-sm">
+            <div class="block-xs"><strong>Color:</strong> {{selectedColor.name}}</div>
+            <div class="watch-color"
+                 ng-repeat="color in watch.colors"
+                 ng-class="{selected: color == selectedColor}">
+                <div class="fill"
+                     ng-style="{'background-color': color.hex}"
+                     ng-click="setColor(color)"></div>
+            </div>
+        </div>
+        <div ng-show="selectedScreenSize" class="block-sm">
+            <div class="block-xs"><strong>Screen size:</strong></div>
+            <div class="watch-size"
+                 ng-repeat="screen in watch.screenSizesMm"
+                 ng-class="{selected: screen == selectedScreenSize}"
+                 ng-click="setScreenSize(screen)">
+                <strong class="fill">{{screen}}mm</strong>
+            </div>
+        </div>
+        <hr/>
+        <div class="block-sm">
+            <strong>
+                <i class="fa fa-truck" aria-hidden="true"></i> Shipping:
+            </strong> Usually ships in 1 business day
+        </div>
+        <hr/>
     </div>
 </div>
