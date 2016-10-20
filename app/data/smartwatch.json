@@ -131,7 +131,11 @@
 			}
 		],
 		"price": 199.99,
-		"pictureUrls": [ "" ],
+		"pictureUrls": [
+			"http://pisces.bbystatic.com/image2/BestBuy_US/images/products/8191/8191838_sa.jpg;maxHeight=550;maxWidth=642",
+			"http://pisces.bbystatic.com/image2/BestBuy_US/images/products/8191/8191838_ra.jpg;maxHeight=550;maxWidth=642",
+			"http://pisces.bbystatic.com/image2/BestBuy_US/images/products/8191/8191838le.jpg;maxHeight=550;maxWidth=642"
+		],
 		"desc": "Pebble Time Steel Smartwatch 38mm Leather: Everything you need to manage another busy day is right at your wrist with a timeline interface that keeps you apprised of appointments and events. Includes Pebble Health to seamlessly track activity and sleep patterns. Send messages by speaking for hands-free communication."
 	},
 	{

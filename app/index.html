@@ -13,14 +13,26 @@
     <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <div class="container" ng-view></div>
+<nav class="navbar navbar-default navbar-static-top">
+    <div class="container">
+        <div id="navbar">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="#/"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
-    <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
-    <script type="text/javascript" src="bower_components/angular-route/angular-route.min.js"></script>
-    <!-- inject:js -->
-    <script src="/public/js/app.js"></script>
-    <script src="/public/js/watch/watch.js"></script>
-    <script src="/public/js/watches/watches.js"></script>
-    <!-- endinject -->
+<div class="container" ng-view></div>
+
+<script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+<script type="text/javascript" src="bower_components/angular-route/angular-route.min.js"></script>
+<!-- inject:js -->
+<script src="/public/js/app.js"></script>
+<script src="/public/js/watch/watch.js"></script>
+<script src="/public/js/watches/watches.js"></script>
+<!-- endinject -->
 </body>
 </html>

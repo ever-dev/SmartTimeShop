@@ -1,5 +1,14 @@
+<div class="row block-sm">
+    <div class="col-sm-7 col-sm-offset-2">
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search..." ng-model="query">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-search" aria-hidden="true"></i></span>
+        </div>
+    </div>
+</div>
+
 <div class="watches-list">
-    <div ng-repeat="watch in watches">
+    <div ng-repeat="watch in watches | filter:query">
         <div class="row watches-item">
             <div class="col-xs-2">
                 <img ng-src="{{watch.pictureUrls[0]}}"/>
@@ -11,8 +20,9 @@
                 <div class="watches-item-model">
                     <strong>Model: </strong>{{watch.model}}
                 </div>
-                <a href="#">
-                    <div class="btn btn-default btn-sm">See more colors</div></a>
+                <a href="#/watch/{{watch.id}}">
+                    <div class="btn btn-default btn-sm">See more colors</div>
+                </a>
                 <div class="watches-item-desc">
                     {{watch.desc}}
                 </div>
