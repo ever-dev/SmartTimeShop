@@ -1,14 +1,29 @@
-<div class="row block-sm">
-    <div class="col-sm-7 col-sm-offset-2">
-        <div class="input-group">
-            <input type="text" class="form-control" placeholder="Search..." ng-model="query">
-            <span class="input-group-addon"><i class="glyphicon glyphicon-search" aria-hidden="true"></i></span>
+<div class="block-md">
+    <div class="row">
+        <div class="col-sm-7 col-sm-offset-2">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search..." ng-model="query">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-search" aria-hidden="true"></i></span>
+            </div>
+        </div>
+    </div>
+    <div class="row block-xs">
+        <div class="col-sm-7 col-sm-offset-2">
+            <strong>Sort by: </strong>
+            <a href="" ng-click="sort('price')">price
+                <i class="glyphicon" ng-class="{'glyphicon-chevron-up': isSortUp('price'),
+                              'glyphicon-chevron-down': isSortDown('price')}"></i>
+            </a> |
+            <a href="" ng-click="sort('name')">name
+                <i class="glyphicon" ng-class="{'glyphicon-chevron-up': isSortUp('name'),
+                              'glyphicon-chevron-down': isSortDown('name')}"></i>
+            </a>
         </div>
     </div>
 </div>
 
 <div class="watches-list">
-    <div ng-repeat="watch in watches | filter:query">
+    <div ng-repeat="watch in watches | filter:query | orderBy:orderField:orderReverse">
         <div class="row watches-item">
             <div class="col-xs-2">
                 <img ng-src="{{watch.pictureUrls[0]}}"/>
